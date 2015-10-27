@@ -15,8 +15,6 @@ const regex = {
 
 const strip = [ regex.comment, regex.define ]
     
-const     
-    
 const parse = source => {
   const tokens = strip.reduce( 
       ( source, regex ) =>
