@@ -7,8 +7,8 @@
 > Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! If you succeed, you'll be promoted up to the next level for another year of work in the vast office building. Congratulations!
 
 Note that it throws away source comments, comments and labels - if you need 
-these I recommend using [hrm-grammar] instead, it is a proper expression grammar 
-and will produce an AST
+these I recommend using [hrm-grammar](https://github.com/sixlettervariables/hrm-grammar) 
+instead, it uses a proper expression grammar and will produce an AST
 
 ### NPM
 

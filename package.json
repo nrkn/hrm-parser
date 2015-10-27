@@ -1,6 +1,6 @@
 {
   "name": "hrm-parser",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A parser for Human Resource Machine programs",
   "main": "parse.js",
   "engines": {
