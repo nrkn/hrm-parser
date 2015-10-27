@@ -1,0 +1,27 @@
+{
+  "name": "hrm-parser",
+  "version": "0.1.0",
+  "description": "A parser for Human Resource Machine programs",
+  "main": "parse.js",
+  "engines": {
+    "node": ">=4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nrkn/hrm-parser.git"
+  },
+  "keywords": [
+    "human",
+    "resource",
+    "machine",
+    "assembly",
+    "hrm",
+    "parser"
+  ],
+  "author": "Nik Coughlin <nrkn.com@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrkn/hrm-parser/issues"
+  },
+  "homepage": "https://github.com/nrkn/hrm-parser#readme"
+}
