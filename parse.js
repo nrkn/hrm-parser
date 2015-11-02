@@ -5,7 +5,7 @@ const twoArity = [ 'COPYFROM', 'COPYTO', 'ADD', 'SUB', 'BUMPUP', 'BUMPDN', 'JUMP
 const jumps = [ 'JUMP', 'JUMPZ', 'JUMPN' ]
 
 const regex = {
-  comment: /\-\-\s.*?\s\-\-/g,
+  comment: /^\s*\-\-.*?$/gm,
   define: /DEFINE\s+(?:COMMENT|LABEL)\s+\d+\s+eJ[-a-z0-9+/=\s]+;/gi,
   label: /^[a-z]:$/i,
   direct: /^\d+$/,
