@@ -7,7 +7,7 @@ const jumps = [ 'JUMP', 'JUMPZ', 'JUMPN' ]
 const regex = {
   comment: /^\s*\-\-.*?$/gm,
   define: /DEFINE\s+(?:COMMENT|LABEL)\s+\d+\s+eJ[-a-z0-9+/=\s]+;/gi,
-  label: /^[a-z]:$/i,
+  label: /^[a-z][a-z0-9]*:$/i,
   direct: /^\d+$/,
   reference: /^\[\d+\]$/,
   address: /^\d+$|^\[\d+\]$/
