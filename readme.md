@@ -6,10 +6,6 @@
 
 > Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! If you succeed, you'll be promoted up to the next level for another year of work in the vast office building. Congratulations!
 
-Note that it throws away source comments, comments and labels - if you need 
-these I recommend using [hrm-grammar](https://github.com/sixlettervariables/hrm-grammar) 
-instead, it uses a proper expression grammar and will produce an AST
-
 ### NPM
 
 `npm install hrm-parser`
@@ -53,3 +49,15 @@ It will output something like:
   [ "JUMP", 14 ] 
 ]
 ```
+
+If you want to handle errors yourself, or get metadata about comments, labels etc. you can use the async version:
+
+```javascript
+parser( source, ( err, program, meta ) => {
+  //...
+})
+```
+
+### Similar projects
+
+[hrm-grammar](https://github.com/sixlettervariables/hrm-grammar) uses a proper expression grammar and produces an AST
