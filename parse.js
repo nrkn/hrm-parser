@@ -54,7 +54,13 @@ const mappers = {
       image: segs.slice( 3 ).join( '' ) 
     }
   },
-  direct: node => Number( node.value )
+  direct: node => Number( node.value ),
+  word: node => {
+    if( instr.includes( node.value.toUpperCase() ) )
+      return node.value.toUpperCase()    
+    
+    return node.value
+  }
 }
 
 const next = str => {
